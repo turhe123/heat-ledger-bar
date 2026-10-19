@@ -1,0 +1,60 @@
+{
+  "seo_title": "Thermal history for your Mac",
+  "seo_description": "Free, open-source macOS menu bar app that logs time spent in each thermal state daily and shows which apps were running when your Mac got hot.",
+  "hero_title_line1": "See why your Mac",
+  "hero_title_accent": "runs hot.",
+  "hero_sub": "HeatLedgerBar lives in your menu bar and records every change in your Mac's thermal state, then names the apps behind each hot period. Click the thermometer to see today at a glance.",
+  "features_title": "A daily ledger of heat.",
+  "features_sub": "It tracks the official macOS thermal state over time instead of reading private temperature sensors.",
+  "features": [
+    {
+      "icon": "clock",
+      "title": "Time in every thermal state",
+      "desc": "Each change between nominal, fair, serious and critical is logged with timestamps. Today's stacked bar shows your share of time in each state."
+    },
+    {
+      "icon": "cpu",
+      "title": "Names the apps behind the heat",
+      "desc": "While your Mac is at fair or worse, per-process CPU is sampled every 10 seconds. Each hot period lists the frontmost app and the heaviest apps."
+    },
+    {
+      "icon": "sliders",
+      "title": "7 and 30 day history",
+      "desc": "A history window charts time per state over 7 or 30 days, with a per-day table and the top culprit for each day."
+    },
+    {
+      "icon": "bell",
+      "title": "Alerts when heat lingers",
+      "desc": "Get a notification when your Mac stays hot for 5, 10 or 20 minutes, naming the heaviest app. You get at most one alert per hot period."
+    },
+    {
+      "icon": "eye",
+      "title": "Thermometer in the menu bar",
+      "desc": "The icon is tinted gray, yellow, orange or red to match the current thermal state, so you can check it without opening anything."
+    },
+    {
+      "icon": "lock",
+      "title": "Local data, no network",
+      "desc": "History is a JSON file on your Mac, kept for 7, 14 or 30 days. There are no accounts and nothing is sent anywhere."
+    }
+  ],
+  "permissions_step": "When prompted, allow notifications so HeatLedgerBar can warn you about long hot periods (System Settings > Notifications); if you enable Launch at login, approve it under System Settings > General > Login Items.",
+  "faq": [
+    {
+      "q": "Is HeatLedgerBar free and open source?",
+      "a": "Yes. It is free, released under the MIT license, and the full source is on GitHub. If you find it useful, there is an optional Support button that opens a Ko-fi page."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Only notifications, which are optional and used for hot-Mac alerts, plus a login item if you turn on Launch at login. It does not ask for Accessibility, Screen Recording, Location or Full Disk Access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "In a JSON file at ~/Library/Application Support/HeatLedgerBar/ on your Mac. Nothing leaves your machine, and you can erase it at any time with Clear History in Settings."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+[
+  {"file":"01-menu.png","caption":"The menu bar popover shows the current thermal state, today's time-in-state bar, and quick links to history, settings and support.","alt":"HeatLedgerBar menu bar popover showing Nominal state and today's thermal bar"},
+  {"file":"02-settings.png","caption":"Settings let you choose when hot-Mac alerts fire, how long history is kept, and whether the app launches at login.","alt":"HeatLedgerBar Settings window with alert, history and general options"},
+  {"file":"03-history.png","caption":"The Heat History window charts time per thermal state over 7 or 30 days, with a per-day table and top culprit app.","alt":"Heat History window with a 7-day chart and per-day table"}
+]

@@ -1,5 +1,7 @@
 # HeatLedgerBar
 
+**🌐 Website:** [turhe123.github.io/heat-ledger-bar](https://turhe123.github.io/heat-ledger-bar/)
+
 Log how long your Mac spends in each thermal state each day and show which apps were running when it got hot.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -28,7 +30,17 @@ HeatLedgerBar is a free, open-source, 100% native, backend-free alternative to p
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="HeatLedgerBar menu bar popover showing Nominal state and today&#x27;s thermal bar" width="720"></p>
+
+<p align="center"><em>The menu bar popover shows the current thermal state, today&#x27;s time-in-state bar, and quick links to history, settings and support.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="HeatLedgerBar Settings window with alert, history and general options" width="560"></p>
+
+<p align="center"><em>Settings let you choose when hot-Mac alerts fire, how long history is kept, and whether the app launches at login.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-history.png" alt="Heat History window with a 7-day chart and per-day table" width="560"></p>
+
+<p align="center"><em>The Heat History window charts time per thermal state over 7 or 30 days, with a per-day table and top culprit app.</em></p>
 
 ## Install
 
